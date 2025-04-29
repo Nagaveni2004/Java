@@ -1,0 +1,32 @@
+public class Main {
+    public static void main(String[] args) {
+        System.out.println("Data types in Java");
+        int age = 21;
+        int year=2025;
+        double price=975.50;
+        double gpa=9.2;
+        char grade='A';
+        char symbol='!';
+        boolean isStudent=true;
+        boolean forSale=false;
+        String name ="Nagaveni L S";
+        String email="abc123@gmail.com";
+        String car="Kia";
+        String language="Java";
+
+        System.out.println("My name is: "+name);
+        System.out.println("I'm "+age+" "+ "years old");
+        System.out.println("I'm currently learning "+language+" "+"and I'm enjoying it"+symbol);
+        System.out.println("Email address is: "+email);
+        if(isStudent)
+        {
+            System.out.println("I'm a student");
+        }
+        else
+        {
+            System.out.println("I'm not a student");
+        }
+        System.out.println("My choice of car is:"+car+" "+year+" $"+price);
+    }
+}
+
