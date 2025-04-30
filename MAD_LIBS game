@@ -25,11 +25,9 @@ public class Main {
 
         System.out.print("Enter an adjective(description):");
         adjective1 = scanner.nextLine();
-        ;
 
         System.out.print("Enter a noun(animal name):");
         noun2 = scanner.nextLine();
-        ;
 
         System.out.print("Enter a Past tense verb(action):");
         verb1 = scanner.nextLine();
