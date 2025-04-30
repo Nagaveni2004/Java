@@ -26,4 +26,10 @@ public class Main {
     }
 }
 
+//Sample output
+Welcome to the shopping cart!!What item would you like to buy?:Paneer
+What is the price for each?:57.93
+How many would you like?:89
 
+You have ordered 89 Paneer/s
+Your total is $5155.7699999999995
