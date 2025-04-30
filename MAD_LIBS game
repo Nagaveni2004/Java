@@ -1,0 +1,106 @@
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+
+        String noun1;
+        String adjective1;
+        String noun2;
+        String verb1;
+        String verb2;
+        String adjective2;
+        String noun3;
+        String verb3;
+        String noun4;
+        String verb4;
+        String adjective3;
+        String noun5;
+        String adjective4;
+        String noun6;
+        String adjective5;
+
+        System.out.print("Enter a noun(person name):");
+        noun1 = scanner.nextLine();
+
+        System.out.print("Enter an adjective(description):");
+        adjective1 = scanner.nextLine();
+        ;
+
+        System.out.print("Enter a noun(animal name):");
+        noun2 = scanner.nextLine();
+        ;
+
+        System.out.print("Enter a Past tense verb(action):");
+        verb1 = scanner.nextLine();
+
+        System.out.print("Enter a verb(action):");
+        verb2 = scanner.nextLine();
+
+        System.out.print("Enter an adjective(description):");
+        adjective2 = scanner.nextLine();
+
+        System.out.print("Enter a plural noun:");
+        noun3 = scanner.nextLine();
+
+        System.out.print("Enter a verb ending with -ing(action):");
+        verb3 = scanner.nextLine();
+
+        System.out.print("Enter a noun(animal name):");
+        noun4 = scanner.nextLine();
+
+        System.out.print("Enter a verb(action):");
+        verb4 = scanner.nextLine();
+
+        System.out.print("Enter an adjective(description):");
+        adjective3 = scanner.nextLine();
+
+        System.out.print("Enter a noun:");
+        noun5 = scanner.nextLine();
+
+        System.out.print("Enter an adjective(description):");
+        adjective4 = scanner.nextLine();
+
+        System.out.print("Enter a noun(animal name):");
+        noun6 = scanner.nextLine();
+
+        System.out.print("Enter an adjective(description):");
+        adjective5 = scanner.nextLine();
+
+        System.out.println("Today, I went to the zoo with my best friend," + noun1+".");
+        System.out.print("First, we saw a " + adjective1 + " " + noun2 + " jumping up and down in its tree.");
+        System.out.print("It " + verb1 + " so loudly, we had to " + verb2 + " away!");
+        System.out.println("\nNext, we fed a " + adjective2 + " panda some " + noun3 + ".");
+        System.out.print("It loved them so much, it started " + verb3+".");
+        System.out.println("\nThen we watched a zookeeper teach a " + noun4 + " to " + verb4 + ".");
+        System.out.print("It was so " + adjective3 + " ,I almost dropped my " + noun5);
+        System.out.println("On the way out, I bought a " + adjective4 + " hat shaped like a " + noun6 + ".");
+        System.out.print("What a " + adjective5 + " day at the zoo!");
+
+    }
+}
+
+
+//OUTPUT:
+Enter a noun(person name):Cheseball
+Enter an adjective(description):fabulous
+Enter a noun(animal name):giraffe
+Enter a Past tense verb(action):burped
+Enter a verb(action):moonwalk
+Enter an adjective(description):suspicious
+Enter a plural noun:glittery donuts
+Enter a verb ending with -ing(action):breakdancing
+Enter a noun(animal name):penguin
+Enter a verb(action):juggle
+Enter an adjective(description):awkward
+Enter a noun:toaster
+Enter an adjective(description):sparkly
+Enter a noun(animal name):narwhal
+Enter an adjective(description):legendary
+Today, I went to the zoo with my best friend,Cheseball.
+First, we saw a fabulous giraffe jumping up and down in its tree.It burped so loudly, we had to moonwalk away!
+Next, we fed a suspicious panda some glittery donuts.
+It loved them so much, it started breakdancing.
+Then we watched a zookeeper teach a penguin to juggle.
+It was so awkward ,I almost dropped my toasterOn the way out, I bought a sparkly hat shaped like a narwhal.
+What a legendary day at the zoo!
