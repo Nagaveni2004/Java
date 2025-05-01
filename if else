@@ -72,3 +72,16 @@ Hello Shizuka!
 You are a senior!
 You are a student!
 
+What is your name?:Ben
+What is your age?:-5
+Are you a student(true/false)?:false
+Hello Ben!
+You are not yet born
+You are not a student!
+
+What is your name?:
+What is your age?:35
+Are you a student(true/false)?:true
+You did not enter your name!
+You are an adult!
+You are a student!
