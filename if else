@@ -1,0 +1,60 @@
+import java.sql.SQLOutput;
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args)
+    {
+        Scanner scanner=new Scanner(System.in);
+
+        String name;
+        int age;
+        boolean isStudent;
+
+        System.out.print("What is your name?:");
+        name= scanner.nextLine();
+        System.out.print("What is your age?:");
+        age= scanner.nextInt();
+        System.out.print("Are you a student(true/false)?:");
+        isStudent=scanner.nextBoolean();
+
+        if(name.isEmpty()) {
+            System.out.print("You did not enter your name!");
+        }
+        else{
+            System.out.print("Hello " + name + "!");
+        }
+
+        if (age >= 60) {
+            System.out.print("\nYou are a senior!");
+        }
+        else if(age>18){
+            System.out.print("\nYou are an adult!");
+        }
+        else if(age==0){
+            System.out.print("\nYou are a baby!");
+        }
+        else if(age<0){
+            System.out.print("\nYou are not yet born");
+        }
+        else {
+            System.out.print("\nYou are a child!");
+        }
+
+        if(isStudent){
+            System.out.print("\nYou are a student!");
+        }
+        else{
+            System.out.print("\nYou are not a student!");
+        }
+        scanner.close();
+    }
+}
+
+//Output
+What is your name?:Kaliya
+What is your age?:25
+Are you a student(true/false)?:true
+Hello Kaliya!
+You are an adult!
+You are a student!
+
