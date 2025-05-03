@@ -1,6 +1,5 @@
 RANDOM INTEGER
 import java.util.Random;
-
 public class Main {
     public static void main(String[] args){
         Random random=new Random();
@@ -17,7 +16,6 @@ c)6
 
 GENERATING 3 RANDOM INTEGERS
 import java.util.Random;
-
 public class Main {
     public static void main(String[] args){
         Random random=new Random();
@@ -45,7 +43,6 @@ b)18
 
 DOUBLE
 import java.util.Random;
-
 public class Main {
     public static void main(String[] args){
         Random random=new Random();
@@ -63,7 +60,6 @@ c)0.45053492868221057
 
 BOOLEAN
 import java.util.Random;
-
 public class Main {
     public static void main(String[] args){
         Random random=new Random();
