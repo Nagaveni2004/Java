@@ -1,3 +1,4 @@
+RANDOM INTEGER
 import java.util.Random;
 
 public class Main {
@@ -14,7 +15,7 @@ a)1
 b)2
 c)6
 
-
+GENERATING 3 RANDOM INTEGERS
 import java.util.Random;
 
 public class Main {
@@ -41,3 +42,40 @@ a)40
 b)18
   30
   6
+
+DOUBLE
+import java.util.Random;
+
+public class Main {
+    public static void main(String[] args){
+        Random random=new Random();
+        double number;
+        number = random.nextDouble();
+        System.out.println(number);
+    }
+}
+
+//OUTPUT
+a)0.8973135840941291
+b)0.42379223273331845
+c)0.45053492868221057
+
+
+BOOLEAN
+import java.util.Random;
+
+public class Main {
+    public static void main(String[] args){
+        Random random=new Random();
+        boolean isHeads;
+        isHeads = random.nextBoolean();
+        System.out.print(isHeads);
+    }
+}
+
+//OUTPUT:
+a)true
+b)true
+c)false
+
+
