@@ -10,12 +10,9 @@ public class Main {
 }
 
 //OUTPUT
-
-
-
-
-
-
+a)1
+b)2
+c)6
 
 
 import java.util.Random;
