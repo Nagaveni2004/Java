@@ -9,6 +9,7 @@ public class Main {
     }
 }
 
+//OUTPUT
 
 
 
@@ -35,3 +36,11 @@ public class Main {
         System.out.println(number3);
     }
 }
+
+//OUTPUT
+a)40
+  14
+  36
+b)18
+  30
+  6
