@@ -17,6 +17,10 @@ public class Main {
 }
 
 //OUTPUT
-Enter the length of side A:3
-Enter the length of side B:4
-The hypotenuse (side c)is:5.0
+a)Enter the length of side A:3
+  Enter the length of side B:4
+  The hypotenuse (side c)is:5.0
+
+b)Enter the length of side A:2
+  Enter the length of side B:5
+  The hypotenuse (side c)is:5.385164807134504
