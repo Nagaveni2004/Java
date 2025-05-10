@@ -1,0 +1,22 @@
+import java.util.Scanner;
+public class Main {
+    public static void main(String args[])
+    {
+        Scanner scanner=new Scanner(System.in);
+        double radius;
+        double area;
+        double circumference;
+        double volume;
+
+        System.out.print("Enter radius:");
+        radius=scanner.nextDouble();
+        area=Math.PI*Math.pow(radius,2);
+        circumference=2*Math.PI*radius;
+        volume=(4.0/3.0)*Math.PI*Math.pow(radius,3);
+
+        System.out.printf("The circumference of the circle is:%.1fcm",circumference);
+        System.out.printf("\nThe area of the circle is:%.1fcm^2",area);
+        System.out.printf("\nThe volume of the circle is:%.1fcm^3",volume);
+        scanner.close();
+    }
+}
