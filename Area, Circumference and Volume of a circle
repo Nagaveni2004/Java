@@ -20,3 +20,9 @@ public class Main {
         scanner.close();
     }
 }
+
+//OUTPUT:
+a)Enter radius:5
+  The circumference of the circle is:31.4cm
+  The area of the circle is:78.5cm^2
+  The volume of the circle is:523.6cm^3
